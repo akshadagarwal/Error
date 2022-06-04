@@ -1,0 +1,59 @@
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Allura', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Tangerine', cursive;
+}
+
+h1 {
+    font-size: 60px !important;
+    color: rgb(74, 91, 96);
+}
+
+canvas {
+    animation-name: Avengers;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Avengers {
+    from {
+        box-shadow: 1px 1px 25px pink;
+        border: 2px dashed black;
+
+    }
+
+    To {
+        box-shadow: 1px 1px 25px pink;
+        border: 2px dashed black;
+
+    }
+}
+
+.btn {
+    font-size: 25px;
+}
+
+/* .border {
+    height: 510px;
+    width: 510px;
+    background: linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 510px 510px, 0px 510px, 510px 0px;
+    padding: 20px;
+    animation: border-dance 4s infinite linear;
+}
+
+@keyframes border-dance {
+    from{
+        background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+    }
+
+    To{
+        background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+    }
+} */
